@@ -1,5 +1,5 @@
 const projects = {
-  1: {
+  0: {
     name: "Bettr Trip.",
     frontend: "React",
     backend: "Ruby on Rails",
@@ -10,7 +10,7 @@ const projects = {
     testing: "",
     description: "A web tool that allows users to plan trips while referencing google map. Weather, travel duration, and nearby interesting points are also shown to allow users make better decisions."
   },
-  2: {
+  1: {
     name: "WeatherApp",
     frontend: "React",
     backend: "Ruby on Rails",
@@ -21,7 +21,7 @@ const projects = {
     testing: "",
     description: "Weather Forecast for your favourite locations - 48 hourly, weekly and historical comparisons"
   },
-  3: {
+  2: {
     name: "Interview Scheduler",
     frontend: "React",
     backend: "Node/Express",
@@ -32,7 +32,7 @@ const projects = {
     testing: "Jest and Cypress",
     description: "A single page React application that allows users to book and cancel interviews.📆 Tested using both Jest and Cypress"
   },
-  4: {
+  3: {
     name: "Newton",
     frontend: "HTML/CSS",
     backend: "Node.js/Express RESTful API",
@@ -43,7 +43,7 @@ const projects = {
     testing: "",
     description: "Pinterest-like app for learners. React web app that allows learners to save learning resources like tutorials, blogs and videos in a central place that is publicly available to any user."
   },
-  5: {
+  4: {
     name: "Game of Life",
     frontend: "React/Redux",
     backend: "",
@@ -54,7 +54,7 @@ const projects = {
     testing: "",
     description: "Conway's game of life using React and Redux"
   },
-  6: {
+  5: {
     name: "Number Guesser",
     frontend: "React",
     backend: "",
