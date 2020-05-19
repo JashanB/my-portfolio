@@ -14,7 +14,6 @@ export default function App() {
   //publications 
   return (
     <div className="App">
-      <h1>Jashan Brar</h1>
       <Profile />
       <WorkExp />
       <Project/>
