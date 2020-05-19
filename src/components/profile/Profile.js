@@ -14,9 +14,46 @@ export default function Profile(props) {
         <h2>About</h2>
         <p></p>
       </div>
-      <div className="skills">
-        <h2>Skills At About Glance</h2>
-        <p></p>
+      <h2>Skills</h2>
+      <div className="skills-flex">
+        <div className="skill-item">
+          <h4>Languages</h4>
+          <p>JavaScript</p>
+          <p>Ruby</p>
+          <p>HTML</p>
+          <p>Python</p>
+          <p>CSS</p>
+          <p>SASS</p>
+        </div>
+        <div className="skill-item">
+          <h4>Frameworks, Libraries & Environments</h4>
+          <p>React</p>
+          <p>Express</p>
+          <p>NodeJS</p>
+          <p>Rails</p>
+          <p>JQuery</p>
+          <p>Bootstrap</p>
+          <p></p>
+
+        </div>
+        <div className="skill-item">
+          <h4>Systems, CMS & Databases</h4>
+          <p>Git</p>
+          <p>PostgreSQL</p>
+          <p>SQL</p>
+          <p>MongoDB</p>
+          <p>GraphQL</p>
+
+        </div>
+        <div className="skill-item">
+          <h4>Testing</h4>
+          <p>Cypress</p>
+          <p>Jest</p>
+          <p>Mocha/Chai</p>
+          <p>React Testing Library</p>
+          <p>Enzyme</p>
+          <p>Apollo</p>
+        </div>
       </div>
     </div>)
 }

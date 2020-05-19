@@ -2,6 +2,8 @@
   display: inline-block;
 }
 
-.skills {
+.skills-flex {
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
