@@ -3,7 +3,7 @@ import './Project.css';
 import { projObj } from "../projectObj";
 import ProjectItem from "../ProjectItem";
 
-const Project = (props) => {
+export default function Project (props) {
   //take projObj
   //make list item for each one - pass down info about project
   //have container which holds all projObj - href to project page
@@ -42,5 +42,3 @@ const Project = (props) => {
     {projectComponents}
   </div>)
 }
-
-export default Project

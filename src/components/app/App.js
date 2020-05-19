@@ -1,8 +1,11 @@
 import React from 'react';
 import './App.css';
 import Project from '../project';
+import Profile from '../profile';
+import WorkExp from '../workExp';
+import Publications from '../publications';
 
-function App() {
+export default function App() {
   //simply react route to either main or blog
   //have header in app - displays contact info about me
   //profile - picture, links, education, about, skills
@@ -12,9 +15,10 @@ function App() {
   return (
     <div className="App">
       <h1>Jashan Brar</h1>
+      <Profile />
+      <WorkExp />
       <Project/>
+      <Publications />
     </div>
   );
 }
-
-export default App;
