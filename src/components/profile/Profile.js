@@ -18,42 +18,93 @@ export default function Profile(props) {
       <div className="skills-flex">
         <div className="skill-item">
           <h4>Languages</h4>
-          <p>JavaScript</p>
-          <p>Ruby</p>
-          <p>HTML</p>
-          <p>Python</p>
-          <p>CSS</p>
-          <p>SASS</p>
+          <ul>
+            <li>
+              <p>JavaScript</p>
+            </li>
+            <li>
+              <p>Ruby</p>
+            </li>
+            <li>
+              <p>HTML</p>
+            </li>
+            <li>
+              <p>Python</p>
+            </li>
+            <li>
+              <p>CSS</p>
+            </li>
+            <li>
+              <p>SASS</p>
+            </li>
+          </ul>
         </div>
         <div className="skill-item">
           <h4>Frameworks, Libraries & Environments</h4>
-          <p>React</p>
-          <p>Express</p>
-          <p>NodeJS</p>
-          <p>Rails</p>
-          <p>JQuery</p>
-          <p>Bootstrap</p>
-          <p></p>
-
+          <ul>
+            <li>
+              <p>React</p>
+            </li>
+            <li>
+              <p>Express</p>
+            </li>
+            <li>
+              <p>NodeJS</p>
+            </li>
+            <li>
+              <p>Rails</p>
+            </li>
+            <li>
+              <p>JQuery</p>
+            </li>
+            <li>
+              <p>Bootstrap</p>
+            </li>
+          </ul>
         </div>
         <div className="skill-item">
           <h4>Systems, CMS & Databases</h4>
-          <p>Git</p>
-          <p>PostgreSQL</p>
-          <p>SQL</p>
-          <p>MongoDB</p>
-          <p>GraphQL</p>
-
+          <ul>
+            <li>
+              <p>Git</p>
+            </li>
+            <li>
+              <p>PostgreSQL</p>
+            </li>
+            <li>
+              <p>SQL</p>
+            </li>
+            <li>
+              <p>MongoDB</p>
+            </li>
+            <li>
+              <p>GraphQL</p>
+            </li>
+          </ul>
         </div>
         <div className="skill-item">
           <h4>Testing</h4>
-          <p>Cypress</p>
-          <p>Jest</p>
-          <p>Mocha/Chai</p>
-          <p>React Testing Library</p>
-          <p>Enzyme</p>
-          <p>Apollo</p>
+          <ul>
+            <li>
+              <p>Cypress</p>
+            </li>
+            <li>
+              <p>Jest</p>
+            </li>
+            <li>
+              <p>Mocha/Chai</p>
+            </li>
+            <li>
+              <p>React Testing Library</p>
+            </li>
+            <li>
+              <p>Enzyme</p>
+            </li>
+            <li>
+              <p>Apollo</p>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>)
+    </div >)
 }
