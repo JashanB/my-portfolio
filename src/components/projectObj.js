@@ -1,4 +1,4 @@
-const projects = {
+const projObj = {
   0: {
     name: "Bettr Trip.",
     frontend: "React",
@@ -67,4 +67,4 @@ const projects = {
   },
 };
 
-export { projects };
+export { projObj };

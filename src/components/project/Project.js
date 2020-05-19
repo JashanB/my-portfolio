@@ -1,7 +1,7 @@
 import React from 'react';
 import './Project.css';
 import { projObj } from "../projectObj";
-import ProjectItem from "../ProjectItem";
+import ProjectItem from "../projectItem";
 
 export default function Project (props) {
   //take projObj
@@ -19,9 +19,9 @@ export default function Project (props) {
   //   description: "A web tool that allows users to plan trips while referencing google map. Weather, travel duration, and nearby interesting points are also shown to allow users make better decisions."
   // },
   const projectArray = [];
-  for (let project of projObj) {
-    projectArray.push(project);
-  };
+  // for (let project of projObj) {
+  //   projectArray.push(project);
+  // };
   const projectComponents = projectArray.map(function(proj, index) {
     return (
       <ProjectItem 
