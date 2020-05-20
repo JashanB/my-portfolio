@@ -24,8 +24,6 @@ export default function Project(props) {
           <span>Overview</span>
           <p>A web tool that allows users to plan trips while referencing google map. Weather, travel duration, and nearby interesting points are also shown to allow users make better decisions. A RESTful backend server allows users to save trips and create multiple trips at once.</p>
           <p><b>Utilized:</b>React, Ruby on Rails, PostgreSQL, Google Maps JS, Google Directions Services, Google Distance Matrix, Google Places, DarkSky Forecast/TimeMachine</p>
-          <button onClick={() => handleClick()}>{buttonSign(expanded)}</button>
-          <img></img>
           {expanded &&
             <div>
               <span>Motive</span>
@@ -52,17 +50,52 @@ export default function Project(props) {
                 This made the code heavier and less efficient than it would have been if it was all organized from the start.
                 Although a headache to take care of, this was an amazing learning experience in terms of the benefit of appropriately planning out the project beforehand.
               </p>
+              <span>Stretch</span>
+              <p>The main stretch goal for this proejct was to incorporate web sockets so multiple people can edit a trip at the same time.</p>
             </div>
           }
+          <button onClick={() => handleClick()}>{buttonSign(expanded)}</button>
+          <div className="image-wrapper">
+            <img alt="trip-1" src="trip1.gif"></img>
+            <img alt="trip-2" src="trip2.gif"></img>
+            <img alt="trip-3" src="trip3.gif"></img>
+          </div>
         </div>
         <div id="WeatherApp">
           <h4>WeatherApp</h4>
           <span>Overview</span>
-          <p>Weather Forecast for your favourite locations - 48 hourly, weekly and historical comparisons. WeatherApp uses a RESTful backend server that saves the user's searched locations, allowing for personalized usage and reduced API calls.</p>
+          <p>Weather Forecast for your favourite locations - 48 hourly, weekly and historical comparisons. WeatherApp is a mobile optimized app that uses a RESTful backend server that saves the user's searched locations, allowing for personalized usage and reduced API calls.</p>
           <p><b>Utilized:</b>React, Ruby on Rails, PostgreSQL, Google Maps JS, DarkSky Forecast/TimeMachine, CanvasJS</p>
+          {expanded &&
+            <div>
+              <span>Motive</span>
+              <p>Coming out of bootcamp, I wanted to create a full stack application to practice my skills.
+                In my final project I was not involved in all stages of app creation so I wanted to be familiar with the entire process.
+                I had experience using the DarkSky Weather API before so I thought a good place to start would be a WeatherApp.
+                I also wanted to practice styling and mobile optimization so I got to work on this right away.
+              </p>
+              <span>Execution</span>
+              <p>I modeled this app after the Weather-Network App on my phone. I wanted to have persistent data so I decided to insert every searched location into the user's locations table.
+                The database was very simple for this project and I decided to use Ruby on Rails to keep it simple.
+                This app optimizes re-renders because it keeps new searched locations in a transient state and only pulls from the database on page render.
+                To access DarkSky data through API calls, the request must be sent through a proxy server. I used axios calls from the front-end to make Excon calls from the back-end.
+                Whenever a location is clicked, the user is taken to a detailed weather page for that location.
+                Along with daily and weekly data, another request is sent that obtains historical data for the location.
+                The weekly forecast is plotted on the CanvasJS scatterplot, along with the historical data.
+              </p>
+              <span>Problems</span>
+              <p>The main problem I ran into was the number of API calls I was making. I had limited the API calls for the current forecast, but I did not save the historical comparisons.
+                Since I was fetching historical data from multiple years, my API call limit was reached very quickly.
+                In hindsight I should have created a database table for historical data of a location and only made new API calls if there was no previous data present.
+              </p>
+              <span>Stretch</span>
+              <p>The stretch I want to do for this project is make it into a full mobile app and not just mobile optimized. I plan to first build more projects and build on my web development skills before taking it to mobile.</p>
+            </div>
+          }
+          <button onClick={() => handleClick()}>{buttonSign(expanded)}</button>
           <div className="image-wrapper">
-            <img src="weather1.gif"></img>
-            <img src="weather2.gif"></img>
+            <img alt="weather-gif-1" src="weather1.gif"></img>
+            <img alt="weather-gif-2" src="weather2.gif"></img>
           </div>
         </div>
         <div id="">
