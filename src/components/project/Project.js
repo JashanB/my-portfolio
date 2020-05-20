@@ -23,7 +23,7 @@ export default function Project(props) {
           <h4>Bettr Trip.</h4>
           <span>Overview</span>
           <p>A web tool that allows users to plan trips while referencing google map. Weather, travel duration, and nearby interesting points are also shown to allow users make better decisions. A RESTful backend server allows users to save trips and create multiple trips at once.</p>
-          <p><b>Utilized:</b>React, Ruby on Rails, PostgreSQL, Google Maps JS, Google Directions Services, Google Distance Matrix, Google Places, DarkSky Forecast/TimeMachine</p>
+          <p><b>Utilized: </b>React, Ruby on Rails, PostgreSQL, Google Maps JS, Google Directions Services, Google Distance Matrix, Google Places, DarkSky Forecast/TimeMachine</p>
           {expanded &&
             <div>
               <span>Motive</span>
@@ -65,7 +65,7 @@ export default function Project(props) {
           <h4>WeatherApp</h4>
           <span>Overview</span>
           <p>Weather Forecast for your favourite locations - 48 hourly, weekly and historical comparisons. WeatherApp is a mobile optimized app that uses a RESTful backend server that saves the user's searched locations, allowing for personalized usage and reduced API calls.</p>
-          <p><b>Utilized:</b>React, Ruby on Rails, PostgreSQL, Google Maps JS, DarkSky Forecast/TimeMachine, CanvasJS</p>
+          <p><b>Utilized: </b>React, Ruby on Rails, PostgreSQL, Google Maps JS, DarkSky Forecast/TimeMachine, CanvasJS</p>
           {expanded &&
             <div>
               <span>Motive</span>
@@ -105,7 +105,7 @@ export default function Project(props) {
             Search community resources or topics, comment on and rate resources, or upload your own!
             User signup and authentication is fully supported through cookies.
           </p>
-          <p><b>Utilized:</b>Node.js/Express RESTful API, PostgreSQL, CookieParser, Material UI, Styled-components</p>
+          <p><b>Utilized: </b>Node.js/Express RESTful API, PostgreSQL, CookieParser, Material UI, Styled-components</p>
           {expanded &&
             <div>
               <span>Motive</span>
@@ -135,33 +135,68 @@ export default function Project(props) {
             <img alt="Newton-2" src="Newton2.png"></img>
           </div>
         </div>
-        <div id="">
-          <h4></h4>
+        <div id="Life">
+          <h4>Game of Life</h4>
           <span>Overview</span>
-          <p></p>
-          <p><b>Utilized:</b></p>
-          <img></img>
+          <p>React/Redux front-end only app that models Conway's Game of Life. Set a minimum of 5 tiles alive by clicking them and then press start!</p>
+          <p><b>Utilized: </b>React and Redux</p>
+          {expanded &&
+            <div>
+              <span>Motive</span>
+              <p>This app was built as part of a MintBean hackathon. After first creating it with React, I decided to practice Redux by refractoring all states to use Redux instead.
+              </p>
+              <span>Execution</span>
+              <p>The basics of this app are the grid, tile columns and tiles. The grid holds the main states and uses hooks to communicates with its children.
+                Each tile senses the number of adjacent tiles that are alive. Clicking a tile uses a hook to set it alive. 
+                Once the game is started, a set interval function is used to determine if the tile should be dead or should be alive, based on the status of its adjacent tiles.
+                In order to appropriately sense the tiles, I had to modify the algorithm based on the number of bordering squares. 
+                I also ended up making the number of tiles and the speed of the app alterable. This was easy to do because I properly set those states at the highest level.
+              </p>
+              <span>Problems</span>
+              <p>The main issue with this project was my use of the set interval function. 
+                There was no way to stop it and the timing of turning a tile alive or dead became desynced.
+              </p>
+              <span>Stretch</span>
+              <p>This is an app I want to style and deploy.</p>
+            </div>
+          }
+          <button onClick={() => handleClick()}>{buttonSign(expanded)}</button>
+          <div className="image-wrapper">
+            <img alt="Life-1" src="life1.gif"></img>
+          </div>
         </div>
-        <div id="">
-          <h4></h4>
+        <div id="Number-Guesser">
+          <h4>Number-Guesser</h4>
           <span>Overview</span>
-          <p></p>
-          <p><b>Utilized:</b></p>
-          <img></img>
-        </div>
-        <div id="">
-          <h4></h4>
-          <span>Overview</span>
-          <p></p>
-          <p><b>Utilized:</b></p>
-          <img></img>
-        </div>
-        <div id="">
-          <h4></h4>
-          <span>Overview</span>
-          <p></p>
-          <p></p>
-          <img></img>
+          <p>This app is a New Tab Override Chrome Extension, built in 2 hours as part of a MintBean hackathon. Guess a number between 0 and the default range, or set the range to whatever number you want.</p>
+          <p><b>Utilized: </b>React, Jest, Cypress, React Testing Library</p>
+          {expanded &&
+            <div>
+              <span>Motive</span>
+              <p>I decided to build a number guesser because I had never done it before and I was stressing for ideas while the clock was ticking.
+                After the hackathon, I thought that this would be a great place to practice unit and integration testing.
+              </p>
+              <span>Execution</span>
+              <p>This app is very simple and uses only 3 components: input form, number setter and result. 
+                Default states are set in the parent component and children communicate with the parent through hooks.
+                The actual answer is generated through useEffect on page render, when the range change, or when the restart button is clicked.
+                There are multiple levels of error handling to allow for only proper inputs.
+                This app has full coverage unit tests as well as integration tests.
+              </p>
+              <span>Problems</span>
+              <p>This was my first time creating a chrome extension and I was very confused at first. 
+                I spent a lot of time initially in the hackathon reading documentation. 
+                I figuered out that I had to use a manifest.json but at the end, the final product wasn't working!
+                I ended up realizing that I had to run build for the project before it could be accessed as a chrome extension. 
+              </p>
+              <span>Stretch</span>
+              <p>I will also practice end to end testing with Cypress using this app.</p>
+            </div>
+          }
+          <button onClick={() => handleClick()}>{buttonSign(expanded)}</button>
+          <div className="image-wrapper">
+            <img alt="Number-Guesser" src="numberguesser.gif"></img>
+          </div>
         </div>
       </div>
     </div>
