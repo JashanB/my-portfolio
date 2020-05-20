@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './Project.css';
-import { projObj } from "../projectObj";
 
 export default function Project(props) {
   const [expanded, setExpanded] = useState(false);
