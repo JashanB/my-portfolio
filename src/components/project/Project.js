@@ -98,12 +98,42 @@ export default function Project(props) {
             <img alt="weather-gif-2" src="weather2.gif"></img>
           </div>
         </div>
-        <div id="">
-          <h4></h4>
+        <div id="Newton">
+          <h4>Newton</h4>
           <span>Overview</span>
-          <p></p>
-          <p><b>Utilized:</b></p>
-          <img></img>
+          <p>Pinterest-like app for learners. Express web app that allows learners to save learning resources like tutorials, blogs and videos in a central place that is publicly available to any user.
+            Search community resources or topics, comment on and rate resources, or upload your own!
+            User signup and authentication is fully supported through cookies.
+          </p>
+          <p><b>Utilized:</b>Node.js/Express RESTful API, PostgreSQL, CookieParser, Material UI, Styled-components</p>
+          {expanded &&
+            <div>
+              <span>Motive</span>
+              <p>This app was created as a midterm project for Lighthouse Labs. An educational board was the prompt we chose as we felt it would be a great learning experience and we ran with it.
+              </p>
+              <span>Execution</span>
+              <p>What makes this project great is its backend. When a user signs up, they select three topics of intreset.
+                Their homepage is then populated by resources based on the topics they have liked. Liking a resource will also add all of its associated topics to your bank of topics liked.
+                Users can also search all resources by topic or by name. Additionally, users can rate and comment on all resources!
+                All of these functions required careful planning of the database structure as well as complex SQL queries to collect all of the data.
+                My role was to create the database and manage these queries and it required a lot of probelm solving to make work.
+                It was a stressful process to fix all of the bugs but it was a very fun process.
+                I've never felt more like a hacker than I did finding and fixing one last bug 10 minutes before our presentation!
+              </p>
+              <span>Problems</span>
+              <p>The main issue with this project was the limited time we had to complete it. One of the things we wanted to incorporate was JQuery to make the app more responsive.
+                However, we decided to leave that until the end and make sure everything was functioning before incorporating JQuery.
+                This resulted in the application being very complex by the time we were thinking about JQuery and we could not incorporate it with the remaining time.
+              </p>
+              <span>Stretch</span>
+              <p>The main thing we wanted to incorporate in this app was JQuery. It would have made it more clean and less relient on CSS magic to make it look responsive.</p>
+            </div>
+          }
+          <button onClick={() => handleClick()}>{buttonSign(expanded)}</button>
+          <div className="image-wrapper">
+            <img alt="Newton-1" src="Newton1.png"></img>
+            <img alt="Newton-2" src="Newton2.png"></img>
+          </div>
         </div>
         <div id="">
           <h4></h4>
