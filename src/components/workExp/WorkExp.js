@@ -3,7 +3,7 @@ import './WorkExp.css';
 
 export default function WorkExp(props) {
   return (
-    <div id="work-experience">
+    <div id="work-exp">
       <h2>Work Experience</h2>
       <div className="exp-list">
         <div className="exp">

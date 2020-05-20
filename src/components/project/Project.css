@@ -1,3 +1,14 @@
 .project-container {
   text-align: left;
 }
+
+.image-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.image-wrapper img {
+  width: 45%;
+}

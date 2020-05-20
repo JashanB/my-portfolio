@@ -5,7 +5,7 @@ export default function Profile(props) {
   
   return (
     <div id="profile">
-      <img src="crop1.png"></img>
+      <img alt="profile-img" src="crop1.png"></img>
       <h1>Jashan Brar</h1>
       <p>Western University 2015, Biomedical Cellular Biology</p>
       <p>Schulich School of Medicine 2016-2018</p>

@@ -14,10 +14,27 @@ export default function App() {
   //publications 
   return (
     <div className="App">
-      <Profile />
-      <WorkExp />
-      <Project/>
-      <Publications />
+      <div className="nav">
+        <ul className="section-list">
+          <a href="#profile">Profile</a>
+          <a href="#work-exp">Work Experience</a>
+          <a href="#project">Projects</a>
+          <ul className="project-list">
+            <a href="#Bettr-Trip.">Bettr Trip.</a>
+            <a href="#WeatherApp">WeatherApp</a>
+            <a href="#Newton">Newton</a>
+            <a href="#Life">Game of Life</a>
+            <a href="#Number-Guesser">Number Guesser</a>
+          </ul>
+          <a href="#publications">Publications</a>
+        </ul>
+      </div>
+      <div className="content-wrapper">
+        <Profile />
+        <WorkExp />
+        <Project />
+        <Publications />
+      </div>
     </div>
   );
 }

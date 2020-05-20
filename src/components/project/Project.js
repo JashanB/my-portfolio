@@ -15,10 +15,10 @@ export default function Project(props) {
   }
 
   return (
-    <div id="projects">
+    <div id="project">
       <h2>Projects</h2>
       <div className="project-container">
-        <div id="Bettr Trip.">
+        <div id="Bettr-Trip.">
           <h4>Bettr Trip.</h4>
           <span>Overview</span>
           <p>A web tool that allows users to plan trips while referencing google map. Weather, travel duration, and nearby interesting points are also shown to allow users make better decisions. A RESTful backend server allows users to save trips and create multiple trips at once.</p>
