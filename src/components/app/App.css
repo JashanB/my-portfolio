@@ -28,10 +28,10 @@
 }
 
 .content-wrapper {
-  display: block;
-  position: relative;
+  /* display: block; */
+  /* position: relative; */
   text-align: center;
-  width: 100%;
+  width: 90%;
   margin-left: 20%;
   padding-top: 2.5%;
 }

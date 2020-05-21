@@ -1,3 +1,43 @@
+#work-exp {
+  background-color: #F3F3F3;
+  display: inline-block;
+  font-family: Helvetica;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 95%;
+}
+#work-exp h2 {
+  font-size: 220%;
+  color: #3d617b;
+  margin-top: -2%;
+}
+
 .exp-list {
   text-align: left;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.exp-list h4 {
+  font-size: 130%;
+  color: #4795b3;
+}
+
+.exp-list p {
+  font-size: 14px;
+  font-style: italic;
+  margin-top: -2.5%;
+  margin-bottom: -1%;
+  color: #999999;
+}
+
+.exp-list li {
+  font-size: 110%;
+}
+
+#work-exp li {
+  margin-bottom: 1%;
+}
+.exp {
+  margin-bottom: 10%;
 }
