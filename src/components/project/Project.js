@@ -8,11 +8,11 @@ export default function Project(props) {
   };
   const buttonSign = (boolean) => {
     if (boolean) {
-      return "-"
+      return "-";
     } else {
-      return "+"
+      return "+";
     }
-  }
+  };
 
   return (
     <div id="project">

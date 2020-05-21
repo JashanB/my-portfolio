@@ -1,3 +1,13 @@
+#project {
+  width: 95%;
+}
+
+#project h2 {
+  font-size: 220%;
+  color: #3d617b;
+  margin-top: 5%;
+}
+
 .project-container {
   text-align: left;
 }
