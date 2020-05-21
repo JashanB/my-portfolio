@@ -6,11 +6,12 @@ export default function Profile(props) {
   return (
     <div id="profile">
       <img alt="profile-img" src="crop1.png"></img>
+      <div className="picture-border"></div>
       <h1>Jashan Brar</h1>
-      <p>Western University 2015, Biomedical Cellular Biology</p>
-      <p>Schulich School of Medicine 2016-2018</p>
-      <p>Lighthouse Labs 2019-2020</p>
-      <p>contact: brarjashan417@gmail.com | github: <a href="https://github.com/JashanB">https://github.com/JashanB</a> | linkedin: <a href="https://www.linkedin.com/in/jashan-brar/">https://www.linkedin.com/in/jashan-brar/</a></p>
+      {/* <p className="info-p">Western University 2015, Biomedical Cellular Biology</p>
+      <p className="info-p">Schulich School of Medicine 2016-2018</p> */}
+      <p className="info-p"><b>contact</b>: brarjashan417@gmail.com | <b>github</b>: <a href="https://github.com/JashanB">https://github.com/JashanB</a> | <b>linkedin</b>: <a href="https://www.linkedin.com/in/jashan-brar/">https://www.linkedin.com/in/jashan-brar/</a></p>
+      <p className="info-p"><b>Lighthouse Labs</b> 2019-2020 | <b>Schulich School of Medicine</b> 2016-2018 | <b>Western University</b> 2015, Biomedical Cellular Biology</p>
       <div className="about">
         <h2>About</h2>
         <p></p>

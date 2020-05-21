@@ -16,6 +16,7 @@ export default function App() {
     <div className="App">
       <div className="nav">
         <ul className="section-list">
+          <h2>Jashan Brar</h2>
           <a href="#profile">Profile</a>
           <a href="#work-exp">Work Experience</a>
           <a href="#project">Projects</a>

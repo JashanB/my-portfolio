@@ -1,9 +1,49 @@
-.profile {
+#profile {
   display: inline-block;
+  font-family: Helvetica;
 }
 
+#profile img {
+  padding-bottom: 2.5%;
+}
+.picture-border {
+  border: 2px solid #cccbcb;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
 .skills-flex {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#profile h1 {
+  font-size: 400%;
+  color: #021a2f;
+  margin-bottom: 4%;
+  /* margin-top: -0.1%; */
+  margin-top: 2%;
+}
+
+.info-p {
+  font-size: 16px;
+
+}
+
+#profile h2 {
+  font-size: 220%;
+  color: #3d617b;
+}
+
+.about {
+  background-color: #F3F3F3;
+}
+
+.skill-item h4 {
+  color: #BFBFBF;
+  font-size: 130%;
+  font-weight: bold; 
+  text-align: left;
 }
