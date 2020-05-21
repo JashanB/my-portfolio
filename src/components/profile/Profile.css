@@ -1,16 +1,18 @@
 #profile {
   display: inline-block;
   font-family: Helvetica;
+  width: 95%;
 }
 
 #profile img {
   padding-bottom: 2.5%;
 }
 .picture-border {
-  border: 2px solid #cccbcb;
+  border: 2px solid #F3F3F3;
   width: 70%;
   margin-right: auto;
   margin-left: auto;
+  border-radius: 20px;
 }
 .skills-flex {
   display: flex;
@@ -23,10 +25,6 @@
   padding-left: 1%;
   margin-bottom: 5%;
 }
-
-/* .skills-flex ul {
-  font-size: 0;
-} */
 
 #profile h1 {
   font-size: 400%;

@@ -3,7 +3,7 @@
   display: inline-block;
   font-family: Helvetica;
   padding-top: 5%;
-  padding-bottom: 5%;
+  /* padding-bottom: 5%; */
   width: 95%;
 }
 #work-exp h2 {
