@@ -1,31 +1,101 @@
-.App {
-  display: flex;
-  flex-direction: row;
-  /* justify-content: space-evenly; */
-  width: 100%;
-}
+@media only screen and (min-width: 993px){
+  .App {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
 
 .nav {
   position: fixed;
   left: 0;
   width: 20%;
-  background-color: #98bad8;
+  background-color: #01182b;
   height: 100vh;
   display: block;
   color: white;
 }
 
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  position: relative;
+  }
+  
+  .nav li {
+  text-indent: 20px;
+  line-height: 40px; 
+  font-family: Helvetica;
+  font-size: 18px;
+  text-align: left;
+  }
+  
+  .nav a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+  }
+  
+  .nav a:hover {
+    color: white;
+  }
+  
+  .nav a:active {
+    color: white;
+  }
+  
+.content-wrapper {
+  /* display: block; */
+  /* position: relative; */
+  text-align: center;
+  margin-left: 20%;
+  padding-top: 2.5%;
+  font-family: Helvetica;
+}
+}
+
+@media only screen and (max-width: 992px){
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.nav {
+position: fixed;
+top: 0;
+height: 15%;
+background-color: #01182b;
+display: block;
+color: white;
+}
+
+.nav ul {
+list-style: none;
+margin: 0;
+position: relative;
+}
+
+.nav li {
+text-indent: 20px;
+line-height: 40px; 
+font-family: Helvetica;
+font-size: 18px;
+text-align: left;
+}
+
 .nav a {
   display: block;
+  text-decoration: none;
+  color: #999999;
 }
 
 .nav a:hover {
-  background-color: white;
-
+  color: white;
 }
 
 .nav a:active {
-  background-color: aliceblue;
+  color: white;
 }
 
 .content-wrapper {
@@ -35,4 +105,5 @@
   margin-left: 20%;
   padding-top: 2.5%;
   font-family: Helvetica;
+}
 }

@@ -15,27 +15,45 @@ export default function App() {
   return (
     <div className="App">
       <div className="nav">
+        <h2>Jashan Brar</h2>
         <ul className="section-list">
-          <h2>Jashan Brar</h2>
-          <a href="#profile">Profile</a>
-          <a href="#work-exp">Work Experience</a>
-          <a href="#project">Projects</a>
-          <ul className="project-list">
-            <a href="#Bettr-Trip.">Bettr Trip.</a>
-            <a href="#WeatherApp">WeatherApp</a>
-            <a href="#Newton">Newton</a>
-            <a href="#Life">Game of Life</a>
-            <a href="#Number-Guesser">Number Guesser</a>
-          </ul>
-          <a href="#publications">Publications</a>
+          <li>
+            <a href="#profile">Profile</a>
+          </li>
+          <li>
+            <a href="#work-exp">Work Experience</a>
+          </li>
+          <li>
+            <a href="#project">Projects</a>
+          </li>
+            <ul className="project-list">
+              <li>
+                <a href="#Bettr-Trip.">Bettr Trip.</a>
+              </li>
+              <li>
+                <a href="#WeatherApp">WeatherApp</a>
+              </li>
+              <li>
+                <a href="#Newton">Newton</a>
+              </li>
+              <li>
+                <a href="#Life">Game of Life</a>
+              </li>
+              <li>
+                <a href="#Number-Guesser">Number Guesser</a>
+              </li>
+            </ul>
+            <li>
+              <a href="#publications">Publications</a>
+            </li>
         </ul>
       </div>
-      <div className="content-wrapper">
-        <Profile />
-        <WorkExp />
-        <Project />
-        <Publications />
+        <div className="content-wrapper">
+          <Profile />
+          <WorkExp />
+          <Project />
+          <Publications />
+        </div>
       </div>
-    </div>
-  );
-}
+      );
+    }
