@@ -9,9 +9,10 @@
   position: fixed;
   left: 0;
   width: 20%;
-  background-color: aqua;
+  background-color: #98bad8;
   height: 100vh;
   display: block;
+  color: white;
 }
 
 .nav a {
@@ -19,7 +20,7 @@
 }
 
 .nav a:hover {
-  background-color: blue;
+  background-color: white;
 
 }
 
