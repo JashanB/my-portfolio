@@ -1,0 +1,26 @@
+#publications {
+  width: 95%;
+  background-color: #F3F3F3;
+  font-family: Helvetica;
+  display: inline-block;
+  margin-bottom: 2%;
+}
+
+#publications h2 {
+  font-size: 220%;
+  color: #3d617b;
+  margin-bottom: 4%;
+
+}
+
+.publications-list {
+  text-align: left;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-bottom: 4%;
+}
+
+.publications-list h4 {
+  font-size: 130%;
+  color: #4795b3;
+}
