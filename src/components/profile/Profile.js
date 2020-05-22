@@ -2,7 +2,7 @@ import React from 'react';
 import './Profile.css';
 
 export default function Profile(props) {
-  
+
   return (
     <div id="profile">
       <img alt="profile-img" src="crop1.png"></img>
@@ -14,7 +14,18 @@ export default function Profile(props) {
       <p className="info-p"><b>contact</b>: brarjashan417@gmail.com | <b>github</b>: <a href="https://github.com/JashanB">https://github.com/JashanB</a> | <b>linkedin</b>: <a href="https://www.linkedin.com/in/jashan-brar/">https://www.linkedin.com/in/jashan-brar/</a></p>
       <div className="about">
         <h2>About</h2>
-        <p></p>
+        <p>I am a previous medical student that decided to pursue my passion for technology and development.
+          For me, medicine and programming are very similar. Both careers can be described as a craft with an infinite skill ceiling.
+          To be considered competent, you must consistently plan, execute, and reflect on how you can improve.
+          As someone who has a deep passion for competition, this process is extremely engaging and motivates me to try my hardest.</p>
+        <p>The reason why I chose development over medicine is because of the ability to create.
+          I have been in sciences all my life, yet I have always envied musicians and artists.
+          To create something which did not exist before is truly magical.
+            Even though I have no artistic ability, I realized that programming can be my creative outlet.</p>
+        <p>In the short amount of time that I have learnt programming, I have created a few things that I am proud of. 
+          I made a travel planner that filled a hole in my planning needs, a weather app that provides me with more information than the one on my phone,
+           and a Pinterest-clone for educational resources. I know this is only the start and I am keen to develop my skills.</p>
+           <p>I am excited to continue to create and I hope you follow me on my creative journey. </p>
       </div>
       <h2>Skills</h2>
       <div className="skills-flex">

@@ -32,7 +32,7 @@ export default function Project(props) {
               <span><b>Execution</b></span>
               <p>For our Lighthouse Labs final project I worked on this travel planner with two other members. The MVP of this project was an interactive world map and an interactive calendar.
                 I built the map using a React wrapper around the Google JS Map and incorportaed key features such as markers and the search box.
-                Whenever a place is searched, that location is added to our database.</p>
+                Whenever a place is searched and saved, that location is added to our database.</p>
               <p>We used useEffects to pull from the database whenever a location is added.
               In hindsight, we should have pulled from the database only on page render and operated with a transient state for the current session.
               This would have allowed everything to still be saved into the database, but it would reduce re-renders for our app.
@@ -47,7 +47,7 @@ export default function Project(props) {
                 We started the project working on two seperate branches with myself taking care of the map and my other two teammates taking care of the calendar.
                The map component was the overall parent component and was the one that would communicate its state down to its children.</p>
               <p>Since this was our first large scale project, we started both branches with their own seperate state. When we brought the two branches together the states were disjointed and did not communicate appropriately.
-              I had to then refractor the states that were set in the calendar component into the map component in order for the branches to communicate appropriately.
+              I had to then refractor the states that were set in the calendar component up into the map component in order for the branches to communicate appropriately.
               This made the code heavier and less efficient than it would have been if it was all organized from the start.
               Although a headache to take care of, this was an amazing learning experience in terms of the benefit of appropriately planning out the project beforehand.
               </p>
@@ -118,8 +118,8 @@ export default function Project(props) {
                 Users can also search all resources by topic or by name. Additionally, users can rate and comment on all resources!</p>
               <p>All of these functions required careful planning of the database structure as well as complex SQL queries to collect all of the data.
               My role was to create the database and manage these queries and it required a lot of probelm solving to make work.
-              It was a stressful process to fix all of the bugs but it was a very fun process.
-              I've never felt more like a hacker than I did finding and fixing one last bug 10 minutes before our presentation!
+              It was a stressful process to fix all of the bugs but it was also very fun.
+              I've never felt more like a coder than I did finding and fixing one last bug 10 minutes before our presentation!
               </p>
               <span><b>Problems</b></span>
               <p>The main issue with this project was the limited time we had to complete it. One of the things we wanted to incorporate was JQuery to make the app more responsive.

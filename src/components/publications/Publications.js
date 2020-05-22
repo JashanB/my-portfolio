@@ -13,7 +13,7 @@ export default function Publications(props) {
         <a href="https://www.archives-pmr.org/article/S0003-9993(16)30880-2/fulltext">https://www.archives-pmr.org/article/S0003-9993(16)30880-2/fulltext</a>
         <h4>Archives of Physical Medicine and Rehabilitation (2016)</h4>
         <p>Using Theta Burst Stimulation (TBS) to Improve Upper Limb Motor Function Following a Stroke: A Systematic Review.</p>
-        <a href="https://www.archives-pmr.org/article/S0003-9993(16)30880-2/fulltext">https://www.archives-pmr.org/article/S0003-9993(16)30880-2/fulltext</a>
+        <a href="https://www.archives-pmr.org/article/S0003-9993(16)30883-8/fulltext">https://www.archives-pmr.org/article/S0003-9993(16)30883-8/fulltext</a>
         <h4>Evidence-Based Review of Stroke Rehabilitation</h4>
         <p>Chapter 13: Perceptual Disorders. Evidence-Based Review of Stroke Rehabilitation.</p>
         <p> Chapter 21: The Rehabilitation of Younger Stroke Patients. Evidence-Based Review of Stroke Rehabilitation.</p>
