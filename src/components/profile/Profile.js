@@ -2,7 +2,6 @@ import React from 'react';
 import './Profile.css';
 
 export default function Profile(props) {
-
   return (
     <div id="profile">
       <img alt="profile-img" src="crop1.png"></img>
@@ -22,10 +21,10 @@ export default function Profile(props) {
           I have been in sciences all my life, yet I have always envied musicians and artists.
           To create something which did not exist before is truly magical.
             Even though I have no artistic ability, I realized that programming can be my creative outlet.</p>
-        <p>In the short amount of time that I have learnt programming, I have created a few things that I am proud of. 
+        <p>In the short amount of time that I have learnt programming, I have created a few things that I am proud of.
           I made a travel planner that filled a hole in my planning needs, a weather app that provides me with more information than the one on my phone,
            and a Pinterest-clone for educational resources. I know this is only the start and I am keen to develop my skills.</p>
-           <p>I am excited to continue to create and I hope you follow me on my creative journey. </p>
+        <p>I am excited to continue to create and I hope you follow me on my creative journey. </p>
       </div>
       <h2>Skills</h2>
       <div className="skills-flex">
@@ -119,5 +118,6 @@ export default function Profile(props) {
           </ul>
         </div>
       </div>
-    </div >)
+    </div >
+  )
 }
