@@ -1,7 +1,7 @@
 @media only screen and (min-width: 1011px){
   .App {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
     max-width: 100%;
   }
@@ -71,7 +71,7 @@
 
 .nav {
 position: fixed;
-height: 12%;
+height: 14%;
 width: 100%;
 background-color: #01182b;
 display: inline-block;

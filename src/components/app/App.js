@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Project from '../project';
 import Profile from '../profile';
@@ -6,8 +6,14 @@ import WorkExp from '../workExp';
 import Publications from '../publications';
 
 export default function App() {
+  const [collapse, setCollapse] = useState(false); 
+  const collapseMenu = () => {
+    collapse ? setCollapse(state => false) : setCollapse(state => true);
+  };
+
   return (
     <div className="App">
+      {/* <button onClick={() => collapseMenu()}></button> */}
       <div className="nav">
         <h2>Jashan Brar</h2>
         <ul className="section-list">
