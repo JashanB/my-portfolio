@@ -10,7 +10,6 @@ export default function Profile(props) {
       <p className="info-p"><b>Lighthouse Labs</b> 2019-2020</p>
       <p className="info-p"><b>Schulich School of Medicine</b> 2016-2018</p>
       <p className="info-p"><b>Western University</b> 2015, Biomedical Cellular Biology</p>
-      {/* <p className="info-p"><b>contact</b>: brarjashan417@gmail.com | <b>github</b>: <a href="https://github.com/JashanB">https://github.com/JashanB</a> | <b>linkedin</b>: <a href="https://www.linkedin.com/in/jashan-brar/">https://www.linkedin.com/in/jashan-brar/</a></p> */}
       <div className="contact-flex">
         <p className="contact-1"><b>contact:</b> brarjashan417@gmail.com</p><p> </p>
         <p className="contact-1"><b>github</b>: <a href="https://github.com/JashanB">https://github.com/JashanB</a></p><p> </p>
