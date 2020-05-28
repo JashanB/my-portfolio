@@ -154,6 +154,10 @@
     justify-content: center;
   }
 
+  .image-container {
+    padding-top: 2em;
+  }
+
   /* .skill-item h4 {
     color: #868686;
     font-size: 130%;

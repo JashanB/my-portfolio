@@ -4,7 +4,9 @@ import './Profile.css';
 export default function Profile(props) {
   return (
     <div id="profile">
-      <img alt="profile-img" src="crop1.png"></img>
+      <div className="image-container">
+        <img alt="profile-img" src="crop1.png"></img>
+      </div>
       <div className="picture-border"></div>
       <h1>Jashan Brar</h1>
       <p className="info-p"><b>Lighthouse Labs</b> 2019-2020</p>
