@@ -6,10 +6,13 @@ import WorkExp from '../workExp';
 import Publications from '../publications';
 
 export default function App() {
-  const [collapse, setCollapse] = useState(false); 
+  const [collapse, setCollapse] = useState(false);
   const collapseMenu = () => {
     collapse ? setCollapse(state => false) : setCollapse(state => true);
   };
+  let navClassName = 'nav';
+  //give nav onclick function - collapses nav automatically and places button to repopen it
+  //put this button onto other view too 
 
   return (
     <div className="App">
