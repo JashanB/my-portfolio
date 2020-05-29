@@ -60,6 +60,7 @@ export default function Project(props) {
             <img alt="trip-1" src="trip1.gif"></img>
             <img alt="trip-2" src="trip2.gif"></img>
             <img alt="trip-3" src="trip3.gif"></img>
+            <img alt="trip-4" src="Gif4.gif"></img>
           </div>
         </div>
         <div id="WeatherApp">
