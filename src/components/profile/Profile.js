@@ -98,6 +98,9 @@ export default function Profile(props) {
             <li>
               <p>GraphQL</p>
             </li>
+            <li>
+              <p>Google Cloud</p>
+            </li>
           </ul>
         </div>
         <div className="skill-item">
